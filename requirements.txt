@@ -100,7 +100,7 @@ tensorstore==0.1.56
 threadpoolctl==3.4.0
 toolz==0.12.1
 tqdm==4.66.2
-triton==2.3.0
+triton==2.3.0; platform_system != "Windows"
 typing_extensions==4.10.0
 tzdata==2024.1
 uncertainties==3.1.7
